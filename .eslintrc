@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+    },
+  },
+  "plugins": [
+    "node"
+  ],
+  "extends": [
+    "plugin:node/recommended",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "node/exports-style": ["error", "module.exports"],
+    "no-console": ["error", { allow: ["log"] }]
+  }
+}

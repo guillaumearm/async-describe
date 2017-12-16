@@ -1,0 +1,27 @@
+{
+  "name": "async-describe",
+  "version": "1.0.0",
+  "description": "function for running asynchronous tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "describe",
+    "promise",
+    "async",
+    "await"
+  ],
+  "author": "Guillaume ARM",
+  "license": "MIT",
+  "dependencies": {
+    "node-emoji": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-node": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=7.10.0"
+  }
+}
