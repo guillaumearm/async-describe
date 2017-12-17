@@ -1,6 +1,6 @@
 {
   "name": "async-describe",
-  "version": "1.0.0",
+  "version": "1.0.0-rc0",
   "description": "function for running asynchronous tests",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,8 @@
   "author": "Guillaume ARM",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/guillaumearm/async-describe"
+    "type": "git",
+    "url": "https://github.com/guillaumearm/async-describe"
   },
   "dependencies": {
     "std-mocks": "^1.0.1",
