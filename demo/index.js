@@ -34,4 +34,5 @@ describe('tests', async () => {
   })
   await describe('more test')
   await describe('more test')
+  process.exitCode = 0;
 });

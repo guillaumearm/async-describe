@@ -19,6 +19,7 @@ const describe = async (text, fn = identity) => {
   try {
     await fn();
   } catch (e) {
+    process.exitCode = 1;
     error = e;
     term.red(`${e.stack}\n`)
   }
@@ -40,6 +41,7 @@ const test = async (text, fn = identity) => {
   try {
     await fn();
   } catch (e) {
+    process.exitCode = 1;
     testError = e
   }
   stdMocks.restore();
