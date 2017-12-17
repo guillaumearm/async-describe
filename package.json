@@ -1,6 +1,6 @@
 {
   "name": "async-describe",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0-rc2",
   "description": "function for running asynchronous tests",
   "main": "src/index.js",
   "scripts": {
