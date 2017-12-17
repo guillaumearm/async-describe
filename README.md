@@ -14,12 +14,10 @@ npm install --save-dev async-describe
 
 ##### describe(text, async fn)
 - describes block can ba nested.
-- throw inside a describe block cancel all others describe procedures.
 
 ##### test(text, async fn)
 - cannot be nested in another test block.
 - should be used inside a describe block.
-- throw inside a test block do not cancel others procedures.
 
 #### Example
 ```js

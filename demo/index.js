@@ -34,5 +34,9 @@ describe('tests', async () => {
   })
   await describe('more test')
   await describe('more test')
-  process.exitCode = 0;
+  if (process.exitCode) {
+    process.exitCode = 0;
+  } else {
+    throw new Error('process.exitCode should be 0')
+  }
 });

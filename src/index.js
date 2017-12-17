@@ -6,21 +6,18 @@ const identity = x => x;
 const OK = '✓';
 const KO = '✕';
 
-let error;
 let describeLevel = 0;
 
 /* ************************************************************************** */
 /* describe() */
 /* ************************************************************************** */
 const describe = async (text, fn = identity) => {
-  if (error) return;
   term.bold(`${'  '.repeat(describeLevel)}${text}\n`);
   describeLevel++;
   try {
     await fn();
   } catch (e) {
     process.exitCode = 1;
-    error = e;
     term.red(`${e.stack}\n`)
   }
   describeLevel--;
