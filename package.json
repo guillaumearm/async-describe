@@ -2,7 +2,7 @@
   "name": "async-describe",
   "version": "1.0.0-rc0",
   "description": "function for running asynchronous tests",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "node demo"
   },
