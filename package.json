@@ -15,7 +15,8 @@
   "author": "Guillaume ARM",
   "license": "MIT",
   "dependencies": {
-    "node-emoji": "^1.8.1"
+    "std-mocks": "^1.0.1",
+    "terminal-kit": "^1.14.3"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
