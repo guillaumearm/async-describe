@@ -7,7 +7,6 @@ const OK = '✓';
 const KO = '✕';
 
 let error;
-let errorPrinted = false;
 let describeLevel = 0;
 
 /* ************************************************************************** */
@@ -20,10 +19,8 @@ const describe = async (text, fn = identity) => {
   try {
     await fn();
   } catch (e) {
-    if (!errorPrinted) {
-      error = e;
-      term.red(`${e.stack}\n`)
-    }
+    error = e;
+    term.red(`${e.stack}\n`)
   }
   describeLevel--;
 };
@@ -33,7 +30,7 @@ const describe = async (text, fn = identity) => {
 /* ************************************************************************** */
 let testRunning = false;
 const test = async (text, fn = identity) => {
-  if (error) return;
+  let testError;
   if (testRunning) {
     throw new Error('tests cannot be nested')
   }
@@ -43,20 +40,18 @@ const test = async (text, fn = identity) => {
   try {
     await fn();
   } catch (e) {
-    error = e
+    testError = e
   }
   stdMocks.restore();
   testRunning = false
-  if (error) term.red(` ${KO}`)
+  if (testError) term.red(` ${KO}`)
   else term.green(` ${OK}`);
   term('\n')
   const output = stdMocks.flush()
   output.stderr.forEach(x => term.red(x))
   output.stdout.forEach(x => term.yellow(x))
-  if (error && !errorPrinted) {
-    term.red(`${error.stack}\n`)
-    errorPrinted = true;
-    throw error;
+  if (testError) {
+    term.red(`${testError.stack}\n`)
   }
 }
 
