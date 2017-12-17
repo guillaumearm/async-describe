@@ -13,7 +13,7 @@ npm install --save-dev async-describe
 `async-describe` is designed for running async end to end tests
 
 ##### describe(text, async fn)
-- describes block can ba nested.
+- describes block can be nested.
 
 ##### test(text, async fn)
 - cannot be nested in another test block.
