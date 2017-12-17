@@ -10,14 +10,12 @@ describe('tests', async () => {
     await test('test 1', async () => {
     })
     await test('test 2', async () => {
-      console.warn('console.warn');
     })
     await sleep(100);
   });
   await describe('additional test I')
   await describe('additional test II', async () => {
     await test('test3', async () => {
-      console.log('console.log');
     })
   })
   await describe('run functional tests', async () => {
@@ -34,9 +32,4 @@ describe('tests', async () => {
   })
   await describe('more test')
   await describe('more test')
-  if (process.exitCode) {
-    process.exitCode = 0;
-  } else {
-    throw new Error('process.exitCode should be 0')
-  }
 });

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async-describe demo 1`] = `
+Array [
+  Object {
+    "payload": Array [
+      "tests
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "     test",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      " ✓",
+    ],
+    "type": "YELLOW",
+  },
+  Object {
+    "payload": Array [
+      "
+",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "  start server
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "     test 1",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      " ✓",
+    ],
+    "type": "YELLOW",
+  },
+  Object {
+    "payload": Array [
+      "
+",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "     test 2",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      " ✓",
+    ],
+    "type": "YELLOW",
+  },
+  Object {
+    "payload": Array [
+      "
+",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "     test3",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      " ✓",
+    ],
+    "type": "YELLOW",
+  },
+  Object {
+    "payload": Array [
+      "
+",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "     test4",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "[ERROR]",
+    ],
+    "type": "RED",
+  },
+  Object {
+    "payload": Array [
+      "
+",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "[ERROR]",
+    ],
+    "type": "RED",
+  },
+  Object {
+    "payload": Array [
+      "     test4",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "[ERROR]",
+    ],
+    "type": "RED",
+  },
+  Object {
+    "payload": Array [
+      "
+",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      "[ERROR]",
+    ],
+    "type": "RED",
+  },
+  Object {
+    "payload": Array [
+      "  more test
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "[ERROR]",
+    ],
+    "type": "RED",
+  },
+  Object {
+    "payload": Array [
+      "  more test
+",
+    ],
+    "type": "BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  more test
+",
+    ],
+    "type": "BOLD",
+  },
+]
+`;

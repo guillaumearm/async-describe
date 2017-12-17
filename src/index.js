@@ -1,5 +1,11 @@
 const stdMocks = require('std-mocks');
-const term = require( 'terminal-kit' ).terminal ;
+const term = require('terminal-kit').terminal ;
+
+// term()
+// term.bold()
+// term.red()
+// term.green()
+// term.yellow()
 
 const identity = x => x;
 
