@@ -4,6 +4,7 @@
     "es6": true,
   },
   "parserOptions": {
+    "sourceType": "module",
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
     },
@@ -16,7 +17,7 @@
     "eslint:recommended"
   ],
   "rules": {
-    "node/exports-style": ["error", "module.exports"],
+    "node/no-unsupported-features": 0,
     "no-console": ["error", { allow: ["log", "warn"] }]
   }
 }

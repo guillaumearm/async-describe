@@ -2,8 +2,21 @@
   "name": "async-describe",
   "version": "1.0.0",
   "description": "function for running asynchronous tests",
-  "main": "src/index.js",
+  "main": "lib/async-describe.js",
+  "module": "es/async-describe.js",
+  "jsnext:main": "es/async-describe.js",
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "src",
+    "docs"
+  ],
   "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run clean && npm run test && npm run build",
+    "clean": "rimraf coverage dist es lib",
     "demo": "node demo",
     "test": "NODE_ENV=test jest"
   },
@@ -26,7 +39,12 @@
   "devDependencies": {
     "eslint": "^4.13.1",
     "eslint-plugin-node": "^5.2.1",
-    "jest": "^21.2.1"
+    "jest": "^21.2.1",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.56.2",
+    "rollup-plugin-async": "^1.2.0",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.3"
   },
   "engines": {
     "node": ">=7.10.0"
