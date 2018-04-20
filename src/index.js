@@ -42,7 +42,7 @@ const test = async (text, fn = identity) => {
   testRunning = true;
   stdMocks.use();
   try {
-    await fn();
+    await (typeof fn === 'function' ? fn() : fn);
   } catch (e) {
     process.exitCode = 1;
     testError = e

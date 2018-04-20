@@ -35,6 +35,7 @@ describe('tests', async () => {
     await test('test 2', async () => {
       console.warn('console.warn');
     })
+    await test('test 3', sleep(1)) // test() can take a promise instead of an async function
     await sleep(100);
   });
   await describe('additional test I')

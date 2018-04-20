@@ -82,6 +82,25 @@ Array [
   },
   Object {
     "payload": Array [
+      "     test 3",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
+      " ✓",
+    ],
+    "type": "YELLOW",
+  },
+  Object {
+    "payload": Array [
+      "
+",
+    ],
+    "type": "NORMAL",
+  },
+  Object {
+    "payload": Array [
       "  additional test I
 ",
     ],
