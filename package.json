@@ -17,6 +17,7 @@
     "lint": "eslint .",
     "prepublishOnly": "npm run test:all",
     "test:all": "npm run clean && npm run lint && npm run test && npm run build ",
+    "test:update:snapshot": "npm run test -- --updateSnapshot",
     "clean": "rimraf coverage dist es lib",
     "demo": "node demo",
     "test": "NODE_ENV=test jest"
