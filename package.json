@@ -39,14 +39,14 @@
     "terminal-kit": "^1.15.1"
   },
   "devDependencies": {
-    "eslint": "^4.13.1",
+    "eslint": "^4.19.1",
     "eslint-plugin-node": "^5.2.1",
     "jest": "^21.2.1",
     "rimraf": "^2.6.2",
-    "rollup": "^0.56.2",
+    "rollup": "^0.56.5",
     "rollup-plugin-async": "^1.2.0",
-    "rollup-plugin-commonjs": "^8.3.0",
-    "rollup-plugin-node-resolve": "^3.0.3"
+    "rollup-plugin-commonjs": "^8.4.1",
+    "rollup-plugin-node-resolve": "^3.3.0"
   },
   "engines": {
     "node": ">=7.10.0"
