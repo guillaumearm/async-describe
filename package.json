@@ -1,6 +1,6 @@
 {
   "name": "async-describe",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "function for running asynchronous tests",
   "main": "lib/async-describe.js",
   "module": "es/async-describe.js",
