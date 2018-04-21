@@ -2,219 +2,5837 @@
 
 exports[`async-describe demo 1`] = `
 Array [
+  Array [
+    "",
+  ],
+  Array [
+    "=> OK",
+  ],
+  Array [
+    "
+=========================================================================================>
+=========================================================================================>
+=========================================================================================>
+=========================================================================================>
+=========================================================================================>
+=========================================================================================>
+=========================================================================================>
+========================================================================================>
+",
+  ],
+  Array [
+    "=========================================================================================>",
+  ],
+  Array [
+    "[1] Hello World",
+  ],
+  Array [
+    "[1] Hi, this is a console.log test",
+  ],
+  Array [
+    "[2] Hello World",
+  ],
+  Array [
+    "[2] Hi, this is a console.log test",
+  ],
+]
+`;
+
+exports[`async-describe demo 2`] = `
+Array [
+  Array [
+    "aaaa",
+  ],
+  Array [
+    "<=======================>",
+  ],
+]
+`;
+
+exports[`async-describe demo 3`] = `
+Array [
+  Object {
+    "payload": Array [],
+    "type": "TERM_CLEAR",
+  },
   Object {
     "payload": Array [
-      "tests
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
 ",
     ],
-    "type": "BOLD",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "  build client
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
 ",
     ],
-    "type": "BOLD",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "     test",
+      undefined,
     ],
-    "type": "NORMAL",
+    "type": "TERM_UP",
   },
   Object {
     "payload": Array [
-      " ✓",
+      1,
     ],
-    "type": "YELLOW",
+    "type": "TERM_COLUMN",
   },
   Object {
     "payload": Array [
-      "
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
 ",
     ],
-    "type": "NORMAL",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "  start server
+      "  build client 
 ",
     ],
-    "type": "BOLD",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "     test 1",
+      undefined,
     ],
-    "type": "NORMAL",
+    "type": "TERM_UP",
   },
   Object {
     "payload": Array [
-      " ✓",
+      1,
     ],
-    "type": "YELLOW",
+    "type": "TERM_COLUMN",
   },
   Object {
     "payload": Array [
-      "
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
 ",
     ],
-    "type": "NORMAL",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "     test 2",
-    ],
-    "type": "NORMAL",
-  },
-  Object {
-    "payload": Array [
-      " ✓",
-    ],
-    "type": "YELLOW",
-  },
-  Object {
-    "payload": Array [
-      "
+      "  build client 
 ",
     ],
-    "type": "NORMAL",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "     test 3",
+      undefined,
     ],
-    "type": "NORMAL",
+    "type": "TERM_UP",
   },
   Object {
     "payload": Array [
-      " ✓",
+      1,
     ],
-    "type": "YELLOW",
+    "type": "TERM_COLUMN",
   },
   Object {
     "payload": Array [
-      "
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
 ",
     ],
-    "type": "NORMAL",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "  additional test I
+      "  build client 
 ",
     ],
-    "type": "BOLD",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "  additional test II
+      "    test 
 ",
     ],
-    "type": "BOLD",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "     test3",
+      undefined,
     ],
-    "type": "NORMAL",
+    "type": "TERM_UP",
   },
   Object {
     "payload": Array [
-      " ✓",
+      1,
     ],
-    "type": "YELLOW",
+    "type": "TERM_COLUMN",
   },
   Object {
     "payload": Array [
-      "
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
 ",
     ],
-    "type": "NORMAL",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "  run functional tests
+      "  build client 
 ",
     ],
-    "type": "BOLD",
+    "type": "TERM_BOLD",
   },
   Object {
     "payload": Array [
-      "     test4",
+      "    test 
+",
     ],
-    "type": "NORMAL",
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test ✕
+",
+    ],
+    "type": "TERM_BOLD_RED",
   },
   Object {
     "payload": Array [
       "[ERROR]",
     ],
-    "type": "RED",
+    "type": "TERM_RED",
   },
   Object {
     "payload": Array [
-      "
+      undefined,
+    ],
+    "type": "TERM_UP",
+  },
+  Object {
+    "payload": Array [
+      1,
+    ],
+    "type": "TERM_COLUMN",
+  },
+  Object {
+    "payload": Array [
+      undefined,
+    ],
+    "type": "TERM_DELETE_LINE",
+  },
+  Object {
+    "payload": Array [
+      "tests 
 ",
     ],
-    "type": "NORMAL",
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  build client 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  start server 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test 1 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 2 (nested) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test 4 (nested with error) ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "      1 => nested test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "        2 => nested again ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  additional test I 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "  additional test II 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test3 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  run functional tests 
+",
+    ],
+    "type": "TERM_BOLD",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "    test4 ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test ✓
+",
+    ],
+    "type": "TERM_BOLD_GREEN",
+  },
+  Object {
+    "payload": Array [
+      "  more test ✕
+",
+    ],
+    "type": "TERM_BOLD_RED",
   },
   Object {
     "payload": Array [
       "[ERROR]",
     ],
-    "type": "RED",
-  },
-  Object {
-    "payload": Array [
-      "     test4",
-    ],
-    "type": "NORMAL",
-  },
-  Object {
-    "payload": Array [
-      "[ERROR]",
-    ],
-    "type": "RED",
-  },
-  Object {
-    "payload": Array [
-      "
-",
-    ],
-    "type": "NORMAL",
-  },
-  Object {
-    "payload": Array [
-      "[ERROR]",
-    ],
-    "type": "RED",
-  },
-  Object {
-    "payload": Array [
-      "  more test
-",
-    ],
-    "type": "BOLD",
-  },
-  Object {
-    "payload": Array [
-      "[ERROR]",
-    ],
-    "type": "RED",
-  },
-  Object {
-    "payload": Array [
-      "  more test
-",
-    ],
-    "type": "BOLD",
-  },
-  Object {
-    "payload": Array [
-      "  more test
-",
-    ],
-    "type": "BOLD",
+    "type": "TERM_RED",
   },
 ]
 `;

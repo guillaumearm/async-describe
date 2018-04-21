@@ -1,64 +1,85 @@
-const stdMocks = require('std-mocks');
-const term = require('terminal-kit').terminal ;
+const Renderer = require('./Renderer');
 
-// term()
-// term.bold()
-// term.red()
-// term.green()
-// term.yellow()
+const renderer = new Renderer();
+
+const term = renderer.terminal;
+const render = renderer.render;
+
+
+
+
+process.on('SIGINT', renderer.processExit);
+process.on('exit', renderer.processExit);
+
+const printWith = f => text => render(() => f(text));
+
+const printError = (error, indent = 0) => {
+  const message = error.stack ? (
+    error.stack.toString()
+      .split('    ')
+      .map(x => x.trim())
+      .join(`\n    ${indent}`)
+  ) : error;
+  printWith(term.red)(`${indent}  ${message}\n`)
+}
 
 const identity = x => x;
 
 const OK = '✓';
 const KO = '✕';
 
-let describeLevel = 0;
-
-/* ************************************************************************** */
-/* describe() */
-/* ************************************************************************** */
-const describe = async (text, fn = identity) => {
-  term.bold(`${'  '.repeat(describeLevel)}${text}\n`);
-  describeLevel++;
-  try {
-    await fn();
-  } catch (e) {
-    process.exitCode = 1;
-    term.red(`${e.stack}\n`)
-  }
-  describeLevel--;
-};
+let indentLevel = 0;
 
 /* ************************************************************************** */
 /* test() */
 /* ************************************************************************** */
-let testRunning = false;
-const test = async (text, fn = identity) => {
+
+const createTest = ({ describe }) => async (text, fn = identity) => {
+  let status = '';
   let testError;
-  if (testRunning) {
-    throw new Error('tests cannot be nested')
-  }
-  term(`${'  '.repeat(describeLevel)} ${text}`);
-  testRunning = true;
-  stdMocks.use();
+  const indent = '  '.repeat(indentLevel);
+
+  // renderer.unfreeze();
+  renderer.flush();
+  render(() => {
+    let print = term.bold;
+    if (status === OK && !describe) {
+      print = print.green;
+    } else if (status === KO) {
+      print = print.red;
+    }
+    print(`${indent}${text} ${describe ? '' : status}\n`)
+  })
+
+
+  indentLevel++;
+  renderer.freeze();
   try {
     await (typeof fn === 'function' ? fn() : fn);
   } catch (e) {
     process.exitCode = 1;
     testError = e
   }
-  stdMocks.restore();
-  testRunning = false
-  if (testError) term.red(` ${KO}`)
-  else term.green(` ${OK}`);
-  term('\n')
-  const output = stdMocks.flush()
-  output.stderr.forEach(x => term.red(x))
-  output.stdout.forEach(x => term.yellow(x))
+  renderer.unfreeze();
+  renderer.flush();
+
   if (testError) {
-    term.red(`${testError.stack}\n`)
+    status = KO;
+  } else {
+    status = OK;
+  }
+  if (testError && !testError.printed) {
+    testError.printed = true;
+    printError(testError, indent)
+  }
+  indentLevel--;
+  if (testError && indentLevel) {
+    throw testError;
   }
 }
 
 /* ************************************************************************** */
-module.exports = { describe, test }
+module.exports = {
+  test: createTest({ describe: false }),
+  describe: createTest({ describe: true }),
+}

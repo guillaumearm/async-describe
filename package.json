@@ -20,7 +20,7 @@
     "test:update:snapshot": "npm run test -- --updateSnapshot",
     "clean": "rimraf coverage dist es lib",
     "demo": "node demo",
-    "test": "NODE_ENV=test jest"
+    "test": "DEMO_DELAY=0 NODE_ENV=test jest"
   },
   "keywords": [
     "describe",
@@ -35,6 +35,9 @@
     "url": "https://github.com/guillaumearm/async-describe"
   },
   "dependencies": {
+    "cli-color": "^1.2.0",
+    "clui": "^0.3.6",
+    "ramda": "^0.25.0",
     "std-mocks": "^1.0.1",
     "terminal-kit": "^1.15.1"
   },

@@ -18,6 +18,6 @@
   ],
   "rules": {
     "node/no-unsupported-features": 0,
-    "no-console": ["error", { allow: ["log", "warn"] }]
+    "no-console": ["error", { allow: ["log", "warn", "error"] }]
   }
 }
